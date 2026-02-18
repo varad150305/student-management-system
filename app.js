@@ -1,7 +1,7 @@
 function login(user) {
   if (user.role === "student") {
-    return "Welcome Student";
+    return "Student Home";
   }
-  return "Access Denied";
+  return "No Access";
 }
 module.exports = login;
